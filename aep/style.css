@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #c6c6c6;
+    margin-bottom: 20px;
+}
+
+#cabecalho {
+    
+    width: 75%;
+    height: 100%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho input {
+    background-color: #c6c6c6;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    width: 20%;
+    
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteudo-esquerdo{
+    width: 30%;
+    margin-top: 12px;
+}
+
+
+#conteudo-esquerdo img {
+    margin-bottom: 11px;
+    
+ }
+
+ .botao_esquerdo a{
+    padding-left: 15px;
+   text-decoration: none;
+   font-size: 24px;
+   
+}
+
+.botao_esquerdo{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+}
+
+
+#conteudo-central {
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+
+#conteudo-central a{
+    justify-content: center;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+.espaco_nome{
+    padding-left: 5px;
+}
+
+#conteudo-direito {
+    width: 25%;
+    
+}
+
+.alinha_ao_lado {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.alinha_ao_lado  img{
+    padding-right: 5px;
+}
+
+.espacamento_icone{
+    width: 160px;
+}
+
+.espacamento_icone img{
+    padding-right: 10px;
+}
+
+.espacamento_icone button {
+    border: none;
+    background: transparent;
+}
+
+.espacamento_like {
+    display: inline;
+}
+
+.espacamento_like a > p {
+    display: inline;
+    right: -33.5px;
+    position: relative;
+    bottom: 22px;
+    font-size: 14px;
+
+}
+
+.espacamento_like button {
+    margin-left: -14px;
+    
+}
+.comentarios {
+    width: 100%;
+}
+
+
+.comentarios span {
+    font-weight:bold;
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.comentarios p {
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+#conteudo-direito .nome_user{
+    position: relative;
+    top: -43px;
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+}
+
+#conteudo-direito .nome{
+    position: relative;
+    top: -40px;
+    left: 80px;
+    color: #7e7979;
+}
+
+#conteudo-direito .login_perfil{
+    position: relative;
+    left: 230px;
+    bottom: 70px;
+    text-decoration: none;
+    color: rgb(102, 102, 223);
+}
+
+.sugestao {
+position: relative;
+bottom: 19px;
+}
+
+.sug_inst {
+    display: flex;
+    position: relative;
+    left: 5px;
+}
+
+.seguir{
+    position: relative;
+    top: 5px;
+    left: 60px;
+    color: rgb(102, 102, 223);
+    text-decoration: none;
+}
+
+.botao_doar{
+    margin-left: 10px;
+    padding: 3px;
+    background-color: #6ee46e;
+    box-shadow: 1px 1px black;
+    /* border: 1px solid black; */
+    border-radius: 6px;
+}
+
+.link_doar{
+    font-size: 20px !important;
+}

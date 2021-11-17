@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #c6c6c6;
+    margin-bottom: 20px;
+}
+
+#cabecalho {
+    
+    width: 75%;
+    height: 100%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho input {
+    background-color: #c6c6c6;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    width: 250px;
+    
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteudo-esquerdo{
+    width: 30%;
+    
+}
+
+
+#conteudo-esquerdo img {
+    margin-bottom: 11px;
+    
+ }
+
+ .botao_esquerdo a{
+    padding-left: 15px;
+   text-decoration: none;
+   font-size: 24px;
+   
+}
+
+.botao_esquerdo{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+}
+
+#conteudo-central {
+    width: 70%;
+}
+
+#conteudo-central a{
+    justify-content: center;
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+
+#conteudo-direito {
+    width: 25%;
+}
+
+
+#conteudo-direito .nome_user{
+    position: relative;
+    top: -43px;
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+}
+
+#conteudo-direito .nome{
+    position: relative;
+    top: -40px;
+    left: 80px;
+    color: #7e7979;
+}
+
+#conteudo-direito .login_perfil{
+    position: relative;
+    left: 230px;
+    bottom: 70px;
+    text-decoration: none;
+    color: rgb(102, 102, 223);
+}
+
+.sugestao {
+position: relative;
+bottom: 19px;
+}
+
+.sug_inst {
+    display: flex;
+    position: relative;
+    left: 5px;
+}
+
+.seguir{
+    position: relative;
+    top: 5px;
+    left: 60px;
+    color: rgb(102, 102, 223);
+    text-decoration: none;
+}
+
+input,textarea.estilo_input, button {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-left: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    
+}
+
+input,textarea.estilo_input:focus {
+    outline: 0;  
+    font-size: 18px;    
+}
+
